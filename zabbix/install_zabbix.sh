@@ -54,7 +54,3 @@ EOF
 
 docker compose down -v 2>/dev/null || true
 docker compose up -d
-
-echo "Zabbix: http://$(hostname -I | awk '{print $1}'):8080"
-echo "Login: Admin / zabbix"
-echo "Logs: docker compose logs -f"
