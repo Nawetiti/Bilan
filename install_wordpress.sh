@@ -25,7 +25,7 @@ services:
     image: wordpress:latest
     restart: always
     ports:
-      - "8081:80"
+      - "8080:80"
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: MySQL
@@ -38,7 +38,7 @@ services:
     image: phpmyadmin/phpmyadmin
     restart: always
     ports:
-      - "8080:80"
+      - "8081:80"
     environment:
       PMA_HOST: db
       PMA_USER: MySQL
