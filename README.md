@@ -1,6 +1,6 @@
 # 📋 Scripts Docker Debian 12 - README
 
-Ce dépôt contient trois scripts simples pour installer rapidement un environnement Docker, WordPress, et Zabbix sur une machine Debian 12. Chaque script peut être utilisé indépendamment pour déployer ces services essentiels.
+Ce dépôt contient trois scripts simples pour installer rapidement un environnement Docker, WordPress, et Zabbix sur une machine Debian 12. Chaque script peut être utilisé indépendamment pour déployer ces services.
 
 ## Sommaire
 
@@ -12,7 +12,7 @@ Ce dépôt contient trois scripts simples pour installer rapidement un environne
 
 ## install_docker.sh
 
-Installe Docker CE et Docker Compose sur Debian 12 en quelques secondes.
+Installe Docker CE et Docker Compose sur Debian 12.
 
 **Usage** :
 
